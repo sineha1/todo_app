@@ -11,9 +11,9 @@ class Homescreen extends StatefulWidget {
 class _HomescreenState extends State<Homescreen> {
   final _controller = TextEditingController();
   List toDoList = [
-   ['complete 1 mini project today', false],
-   ['take shower', false],
-   ['eat dinner', false],
+   ['Check emails', false],
+   ['Plan tasks for tomorrow', false],
+   ['Complete 1 mini project today', false],
 
   ];
 
