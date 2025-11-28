@@ -1,16 +1,37 @@
-# todo_app
+#  Flutter To-Do App
 
-A new Flutter project.
+A simple To-Do List application made using Flutter.  
+You can add tasks, check them as completed, and delete them using slide actions.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+##  Features
 
-A few resources to get you started if this is your first Flutter project:
+- Add new tasks  
+- Mark tasks as completed (checkbox)  
+- Delete tasks with a slide button (Slidable package)  
+- Clean UI with brown theme  
+- Simple and beginner-friendly code  
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+##  Main Files
+
+### **lib/homeScreen.dart**
+- Shows the list of tasks  
+- Uses `ListView.builder`  
+- Add, delete, and toggle tasks  
+- Has TextField + Floating button to add tasks  
+
+### **lib/utils/todo_list.dart**
+- Custom widget for each task  
+- Checkbox + Task name  
+- Slide-to-delete using `flutter_slidable`
+
+---
+
+## Packages Used
+- `flutter_slidable` → for slide-to-delete
+
+
+
